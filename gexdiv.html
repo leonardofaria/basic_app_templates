@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Template</title>
+	<link rel="stylesheet" href="stylesheets/gexdiv.css" type="text/css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#menu ul").css({display: "none"}); // Opera Fix
+			$("#menu li").hover(function(){
+				$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown(268);
+				},function(){ $(this).find('ul:first').css({visibility: "hidden"});
+			});
+			
+		});
+	</script>
+</head>
+<body>
+<div id="body">
+	<div id="header">	
+		<h1>My Awesome App</h1>
+		
+		<p>Description</p>
+		
+		<ul id="menu" class="clearfix"> 
+			<li><a href="#">Item 1</a>
+				<ul>
+					<li><a href="#">Subitem 1</a></li>
+					<li><a href="#">Subitem 2</a></li>
+					<li><a href="#">Subitem 3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Item 2</a></li>
+			<li><a href="#">Item 3</a></li>
+			<li><a href="#">Item 4</a>
+				<ul>
+					<li><a href="#">Subitem 1</a></li>
+					<li><a href="#">Subitem 2</a></li>
+					<li><a href="#">Subitem 3</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="content">
+ 		<h1>Title</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+		<div class="notice">A notice message</div>
+		
+		<div class="error">An error message</div>
+		
+		<div class="info">An info message</div>
+		
+		<div class="warning">A warning message</div>
+	</div>
+	<div id="footer">
+		A footer phrase here
+	</div>
+</div>
+</body>
+</html>
