@@ -1,0 +1,3 @@
+h2. basic app templates
+
+it's my app templates. you can use in wordpress themes, rails templates or tumblr themes.
