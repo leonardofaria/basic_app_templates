@@ -1,0 +1,154 @@
+html, body, div, span, applet, embed, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-style: inherit; vertical-align: baseline }
+:focus { outline: 0 }
+body { line-height: 1; color: black }
+ol, ul { list-style: none }
+table { border-collapse: separate; border-spacing: 0 }
+caption, th, td { text-align: left; font-weight: normal }
+blockquote:before, blockquote:after,
+q:before, q:after { content: "" }
+blockquote, q { quotes: "" "" }
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0 }
+.clearfix { display: inline-block }
+html[xmlns] .clearfix { display: block }
+* html .clearfix { height: 1% }
+
+body { 
+	background: #ccc;
+	font: 13px "Lucida Grande", Helvetica, sans-serif;
+}
+body, input, textarea {
+	font: 13px "Lucida Grande", Helvetica, sans-serif; 
+}
+#body {
+	background: url(../images/blue/bg_body.jpg) repeat-y #fff; 
+	margin: 20px auto 10px;
+	padding: 0px;	
+	width: 900px;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+#header { 
+	background: #1E315B;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	height: 50px;
+}
+#header h1 {
+	color: #fff;
+	float: left;
+	padding: 10px;
+	width: 200px;
+}
+#header h1 span {
+	color: #B6D2EA;
+}
+#header ul {
+	display: inline;
+	float: right;
+	margin: 15px;
+}
+#header ul li {
+	color: #B6D2EA;
+	float: left;
+	margin-left: 10px;
+}
+#header ul li a {
+	color: #B6D2EA;
+}
+#menu {
+	background: #EAF1F7;
+	width: 190px;
+	float: left;
+}
+#menu h3 {
+	color: #1E315B;
+	margin: 10px;
+}
+#menu ul {
+	margin: 10px;
+}
+#menu ul li {
+	border-bottom: 1px solid #D6E1E7;
+	color: #666;
+	font-size: 90%;
+	padding: 4px 0;
+}
+#menu ul li:hover {
+	border-bottom: 1px solid #1E315B;
+}
+#content {
+	width: 710px;
+	float: right;
+}
+#main {
+	padding: 10px;
+}
+#content h2 {
+	color: #1E315B;
+	margin-bottom: 10px;
+}
+#content h3 {
+	margin-bottom: 10px;
+}
+#content .past {
+	margin: 2px 0;
+	padding: 3px 0;
+}
+#content .active {
+	background: #ffc;
+	padding: 5px;
+}
+#content .past b {
+	color: #1E315B;
+}
+#content .form {
+	margin: 10px 0;
+}
+#content .form label {
+	color: #1E315B;
+	display: block;
+	font-size: 80%;
+	font-weight: bold;
+	margin: 10px 0 5px 0;
+	text-transform: uppercase;
+}
+#content .form textarea {
+	border: 1px solid #D6E1E7;
+	height: 90px;
+	width: 100%;
+}
+#content .info {
+	background: #1E315B;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #B6D2EA;
+	font-weight: bold;
+	font-size: 85%;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+#content #schedule {
+	width: 100%;
+}
+#content table#schedule {
+	border-collapse:collapse;
+}
+#content table#schedule , #content table#schedule td {
+	border: 1px solid #D6E1E7;
+}
+#content table#schedule td {
+	padding: 5px;
+}
+#content table#schedule td.date {
+	text-align: right;
+	width: 90px;
+}
+#content table#schedule .odd {
+	background: #EAF1F7;
+}
